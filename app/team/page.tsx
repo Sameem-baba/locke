@@ -2,11 +2,10 @@ import Header from "@/components/Header";
 import Image from "next/image";
 
 const teamMembers = [
-    { name: "Camilla Wilson", role: "Payment Gateway Support", image: "/team1.jpg" },
-    { name: "Olive Nacelle", role: "VP of Customer Success", image: "/team2.jpg" },
-    { name: "Sophie Chamberlain", role: "Specialized Support", image: "/team3.jpg" },
-    { name: "Jessica Dobrev", role: "Payments Support", image: "/team4.jpg" },
-    { name: "Orlando Diggs", role: "Customer Success Lead", image: "/team5.jpg" },
+    { name: "Camilla Wilson", role: "Payment Gateway Support", image: "/1.jpg" },
+    { name: "Olive Nacelle", role: "VP of Customer Success", image: "/2.jpg" },
+    { name: "Sophie Chamberlain", role: "Specialized Support", image: "/3.jpg" },
+    { name: "Jessica Dobrev", role: "Payments Support", image: "/4.jpg" },
 ];
 
 function TeamPage() {
@@ -36,22 +35,29 @@ function TeamPage() {
                 </div> */}
 
                 {/* Team Grid */ }
-                <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-                    { teamMembers.map((member, index) => (
-                        <div key={ index } className="relative group overflow-hidden rounded-lg shadow-lg">
-                            <Image
-                                src={ `https://api.dicebear.com/9.x/lorelei/webp?seed=${member.name}` }
-                                alt={ member.name }
-                                width={ 300 }
-                                height={ 300 }
-                                className="w-full h-auto transition-transform duration-300 group-hover:scale-105"
-                            />
-                            <div className="absolute bottom-0 left-0 w-full bg-white p-4">
-                                <h3 className="font-semibold text-gray-900">{ member.name }</h3>
-                                <p className="text-gray-500 text-sm">{ member.role }</p>
+                <div className="flex  justify-center items-center w-full">
+                    <div className="mt-12 grid grid-cols-1 max-w-7xl mx-auto justify-between sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                        { teamMembers.map((member, index) => (
+                            <div key={ index } className="relative group overflow-hidden rounded-lg shadow-lg">
+                                <div className="relative group overflow-hidden shadow-lg w-[250px] h-[300px] mx-auto">
+                                    <Image
+                                        src={ member.image }
+                                        alt={ member.name }
+                                        layout="fill"
+                                        objectFit="cover"
+                                        objectPosition="center center"  // Ensures face is visible
+                                        className="w-full h-full transition-transform duration-300 group-hover:scale-105"
+                                    />
+                                </div>
+
+
+                                <div className="absolute bottom-0 left-0 w-full bg-white p-4">
+                                    <h3 className="font-semibold text-gray-900">{ member.name }</h3>
+                                    <p className="text-gray-500 text-sm">{ member.role }</p>
+                                </div>
                             </div>
-                        </div>
-                    )) }
+                        )) }
+                    </div>
                 </div>
             </div>
         </section>

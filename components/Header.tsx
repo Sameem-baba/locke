@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import { usePathname } from 'next/navigation'
 import { Dialog, DialogPanel, PopoverGroup } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, LockClosedIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -41,12 +41,7 @@ export default function Header() {
             <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
                 <div className="flex lg:flex-1">
                     <Link href="/" className="-m-1.5 flex items-center space-x-2 p-1.5">
-                        <Image
-                            alt="Company Logo"
-                            src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-                            height={ 32 }
-                            width={ 32 }
-                        />
+                        <LockClosedIcon className={ `h-6 w-6 ${textColor}` } />
                         <span className={ `text-sm/6 uppercase tracking-widest font-semibold ${textColor}` }>Locke</span>
                     </Link>
                 </div>
@@ -69,7 +64,7 @@ export default function Header() {
                 </PopoverGroup>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                     <Link href="/bookademo" className={ `text-sm/6 font-medium uppercase tracking-widest rounded-full py-1 px-3 ${textColor} border border-lime-300` }>
-                        Book a demo <span aria-hidden="true">&rarr;</span>
+                        Book a Trial <span aria-hidden="true">&rarr;</span>
                     </Link>
                 </div>
             </nav>
@@ -106,7 +101,7 @@ export default function Header() {
                                 <Link href="/contact" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Contact</Link>
                             </div>
                             <div className="py-6">
-                                <Link href="/bookademo" className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Book a demo</Link>
+                                <Link href="/bookademo" className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Book a trial</Link>
                             </div>
                         </div>
                     </div>
