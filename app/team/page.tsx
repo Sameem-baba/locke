@@ -14,7 +14,7 @@ function TeamPage() {
             <Header />
 
             {/* Section Wrapper */ }
-            <section className="flex min-h-screen w-full justify-center items-center relative px-6">
+            <section className="flex pt-24 md:pt-0 min-h-screen w-full justify-center items-center relative px-6">
                 <div className="container mx-auto text-center relative z-10">
                     {/* Heading */ }
                     <h2 className="text-3xl md:text-4xl font-bold uppercase tracking-wider text-gray-900">
