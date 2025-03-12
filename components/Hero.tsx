@@ -1,7 +1,14 @@
-import Link from "next/link";
-
+"use client"
 
 function Hero() {
+    // Function to handle smooth scrolling
+    const handleScrollToSection = () => {
+        const section = document.getElementById("growingchallenge");
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     return (
         <div className="relative flex flex-col items-center justify-center h-full isolate px-6 lg:px-8">
             <div
@@ -36,13 +43,16 @@ function Hero() {
                     <div className="mt-10 flex items-center justify-center gap-x-6">
                         <a
                             href="/bookatrial"
-                            className="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-blue-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                            className="rounded-md uppercase tracking-wider bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-blue-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                         >
-                            Get started
+                            Book A Trial
                         </a>
-                        <Link href="/about" className="text-sm/6 font-semibold text-gray-900">
+                        <button
+                            onClick={ handleScrollToSection }
+                            className="text-sm/6 uppercase tracking-wider font-semibold text-gray-900"
+                        >
                             Learn more <span aria-hidden="true">→</span>
-                        </Link>
+                        </button>
                     </div>
                 </div>
             </div>

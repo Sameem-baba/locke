@@ -2,7 +2,7 @@
 
 function GrowingChallenge() {
     return (
-        <div className="flex flex-col md:flex-row items-center justify-center w-full px-4 md:px-10 lg:px-16 py-10 gap-8">
+        <div id="growingchallenge" className="flex flex-col md:flex-row items-center justify-center w-full px-4 md:px-10 lg:px-16 py-10 gap-8">
             {/* Image Section */ }
             <div className="w-full md:w-2/5">
                 <img
