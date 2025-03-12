@@ -1,5 +1,7 @@
 "use client"
 
+import Link from "next/link";
+
 function Hero() {
     // Function to handle smooth scrolling
     const handleScrollToSection = () => {
@@ -41,15 +43,15 @@ function Hero() {
                         Personalising cancer care with AI-powered prediction of treatment response
                     </p>
                     <div className="mt-10 flex items-center justify-center gap-x-6">
-                        <a
+                        <Link
                             href="/bookatrial"
                             className="rounded-md uppercase tracking-wider bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-blue-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                         >
                             Book A Trial
-                        </a>
+                        </Link>
                         <button
                             onClick={ handleScrollToSection }
-                            className="text-sm/6 uppercase tracking-wider font-semibold text-gray-900"
+                            className="text-sm/6 uppercase cursor-pointer tracking-wider font-semibold text-gray-900"
                         >
                             Learn more <span aria-hidden="true">→</span>
                         </button>
