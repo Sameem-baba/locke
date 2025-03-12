@@ -1,4 +1,3 @@
-import CTA from "@/components/CTA";
 import Header from "@/components/Header";
 import {
     Accordion,
@@ -6,6 +5,7 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion"
+import Link from "next/link";
 
 function HowItWorksPage() {
     return <div className="pb-10">
@@ -14,14 +14,14 @@ function HowItWorksPage() {
             {/* Background Image */ }
             <div
                 className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-                style={ { backgroundImage: "url('/bgImage.jpg')" } }
+                style={ { backgroundImage: "url('/bgImage2.jpg')" } }
             ></div>
 
             {/* Dark Overlay for Readability */ }
             <div className="absolute inset-0 bg-black/40"></div>
 
             {/* Bottom Text Box */ }
-            <div className="relative w-full bg-lime-300 p-6 text-center">
+            <div className="relative w-full bg-blue-500 p-6 text-center">
                 <div className="flex justify-between max-w-6xl mx-auto ">
                     <h2 className="text-2xl md:text-4xl font-bold text-gray-900 uppercase">How it works</h2>
                     <p className="w-1/2 text-left">
@@ -60,7 +60,15 @@ function HowItWorksPage() {
             </Accordion>
 
         </section>
-        <CTA />
+        <section className='w-full flex items-center md:flex-row flex-col gap-7 max-w-6xl mx-auto border-t py-10 border-gray-400'>
+            <p className='text-black font-extrabold flex-1 text-3xl max-md:text-center'>
+                Do you like our work? <br className='sm:block hidden' />
+                Meet our team
+            </p>
+            <Link href="/team" className='text-white bg-gradient-to-r from-[#00c6ff] to-[#0072ff] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center'>
+                Know more
+            </Link>
+        </section>
     </div>;
 }
 export default HowItWorksPage;

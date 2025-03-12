@@ -4,8 +4,8 @@ import Image from "next/image";
 const teamMembers = [
     { name: "Camilla Wilson", role: "Payment Gateway Support", image: "/1.jpg" },
     { name: "Olive Nacelle", role: "VP of Customer Success", image: "/2.jpg" },
-    { name: "Sophie Chamberlain", role: "Specialized Support", image: "/3.jpg" },
-    { name: "Jessica Dobrev", role: "Payments Support", image: "/4.jpg" },
+    { name: "Moin Chalkoo", role: "CTO", image: "/3.jpg" },
+    { name: "Jessica Dobrev", role: "", image: "/4.jpg" },
 ];
 
 function TeamPage() {
@@ -18,7 +18,7 @@ function TeamPage() {
 
             <div className="container mx-auto px-6 text-center relative z-10">
                 <h2 className="text-4xl font-bold uppercase tracking-wider text-gray-900">
-                    Meet <span className="text-black">our</span> beautiful team
+                    Meet <span className="text-black">our</span> team
                 </h2>
                 <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
                     Our philosophy is simple: hire great people and give them the resources and support to do their best work.

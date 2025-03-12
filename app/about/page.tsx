@@ -42,8 +42,40 @@ function AboutUsPage() {
 
         </section>
 
-        <section>
+        <section className="py-10 max-w-7xl mx-auto">
+            <div className="px-12 flex z-50 flex-col">
+                <h1 className="text-4xl font-bold uppercase tracking-wider pb-2 text-black mb-2">About us</h1>
 
+                {/* <p className="font-normal text-lg w-[35%] text-[--black] font-regular-18">
+                    Although my schedule is limited, I&apos;m always open to exploring projects
+                    that spark my interest.
+                </p> */}
+                <div className="design-content-container">
+                    <div className="design-content">
+                        <p>
+                            Curenetics brings together a diverse team of industry-leading specialists. Collaboration is central to our approach, combining the capabilities of practicing clinicians, AI engineers, data scientists, cancer biologists and immunologists to tackle this single complex challenge.
+                            <br /> <br />
+
+                            Fundamental to our research is access to high-quality existing data sets. We gather and analyse patient genomics, imaging profiles and clinical information from hospitals and labs, developing AI models that can layer these markers to produce uniquely accurate results.
+                            <br /><br />
+                            Currently at the Proof-of-Concept stage, our model will integrate into established health systems to give patients and doctors a reliable, accurate and cost-effective tool to make informed choices about cancer treatment options.
+                            <br /> <br />
+                            Curenetics also has a pipeline of AI-driven projects currently at the discovery stage, which include diagnosis of oral cancer and prediction of stem cell transplant rejection.
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section className='w-full flex items-center md:flex-row flex-col gap-7 max-w-6xl mx-auto border-t py-10 border-gray-400'>
+            <p className='text-black font-extrabold flex-1 text-3xl max-md:text-center'>
+                Meet the minds behind Curenetics.<br className='sm:block hidden' />
+                Join us in the fight against cancer.            </p>
+            <Link href="/team" className='text-white bg-gradient-to-r from-[#00c6ff] to-[#0072ff] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center'>
+                Meet our team
+            </Link>
         </section>
     </div>;
 }

@@ -240,3 +240,24 @@
         @apply bg-background text-foreground;
     }
 }
+
+.design-content-container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    column-gap: 32px;
+    row-gap: 80px;
+    margin-top: 10px;
+}
+
+.design-content {
+    grid-column: 5 / span 12;
+    /* Starts at column 5 and spans 12 columns */
+    /* Alternative method: grid-column-start: 5; grid-column-end: span 12; */
+    transition: transform 0.3s;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    flex-wrap: wrap;
+    gap: 72px;
+}

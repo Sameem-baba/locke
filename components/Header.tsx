@@ -21,15 +21,15 @@ export default function Header() {
     }, [])
 
     // Determine text color based on the page and scroll state
-    const textColor = pathname === "/" || pathname === "/team" || pathname === "/contact" ? "text-black" : isScrolled ? "text-black" : "text-white";
+    const textColor = pathname === "/" || pathname === "/team" || pathname === "/contact" || pathname === "/bookatrial" ? "text-black" : isScrolled ? "text-black" : "text-white";
     const bgColor = isScrolled ? "bg-white shadow-lg" : "bg-transparent";
 
     // Function to handle active link styling
     const getLinkClass = (href: string) => {
         if (pathname === href) {
-            return "text-lime-300 font-semibold";
+            return "text-blue-600 font-semibold";
         }
-        return pathname === "/" || pathname === "/team" || pathname === "/contact"
+        return pathname === "/" || pathname === "/team" || pathname === "/contact" || pathname === "/bookatrial"
             ? "text-black hover:text-gray-700"
             : isScrolled
                 ? "text-black hover:text-gray-700"
@@ -63,7 +63,7 @@ export default function Header() {
                     <Link href="/contact" className={ `text-sm/6 font-medium uppercase tracking-widest ${getLinkClass("/contact")}` }>Contact</Link>
                 </PopoverGroup>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                    <Link href="/bookademo" className={ `text-sm/6 font-medium uppercase tracking-widest rounded-full py-1 px-3 ${textColor} border border-lime-300` }>
+                    <Link href="/bookatrial" className={ `text-sm/6 font-medium uppercase tracking-widest rounded-full py-1 px-3 ${textColor} border border-blue-600` }>
                         Book a Trial <span aria-hidden="true">&rarr;</span>
                     </Link>
                 </div>
@@ -101,7 +101,7 @@ export default function Header() {
                                 <Link href="/contact" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Contact</Link>
                             </div>
                             <div className="py-6">
-                                <Link href="/bookademo" className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Book a trial</Link>
+                                <Link href="/bookatrial" className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Book a trial</Link>
                             </div>
                         </div>
                     </div>
