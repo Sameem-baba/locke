@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react'
 import { usePathname } from 'next/navigation'
 import { Dialog, DialogPanel, PopoverGroup } from '@headlessui/react'
 import { Bars3Icon, LockClosedIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Header() {
@@ -75,13 +74,7 @@ export default function Header() {
                 <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full bg-white overflow-y-auto px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-500/10">
                     <div className="flex items-center justify-between">
                         <Link href="/" className="-m-1.5 p-1.5">
-                            <Image
-                                alt="Company Logo"
-                                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-                                height={ 32 }
-                                width={ 32 }
-                                className="h-8 w-auto"
-                            />
+                            <LockClosedIcon className={ `h-6 w-6 ` } />
                         </Link>
                         <button
                             type="button"

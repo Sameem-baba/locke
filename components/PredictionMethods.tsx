@@ -2,38 +2,33 @@
 
 function PredictionMethods() {
     return (
-        <div
-            className="flex max-h-fit w-full flex-col items-center justify-around gap-4 pb-20 md:flex-row "
-        >
-            <div className="h-fit order-last  w-full md:w-[40%]">
-                <img src="/thePredictionMethods.webp" alt="" className="rounded-xl" />
-            </div>
-            <div className="flex h-full w-full flex-col items-cent justify-center p-5 md:w-[50%] ">
-                <div className="relative flex h-full w-full items-end">
-                    <div className="font-marker text-4xl font-black">
-                        <p>
-                            Our Vision
-                        </p>
-                        <hr
-                            aria-orientation="horizontal"
-                            className="my-5"
-                        />
-                    </div>
+        <div className="flex flex-col-reverse md:flex-row items-center justify-center w-full px-4 md:px-10 lg:px-16 py-10 gap-8">
+            {/* Text Section */ }
+            <div className="w-full md:w-3/5 flex flex-col justify-center text-center md:text-left">
+                <div className="text-4xl font-black font-marker">
+                    <p>Our Vision</p>
+                    <hr className="my-4 border-t-2 border-gray-300 w-24 mx-auto md:mx-0" />
                 </div>
-                <p
-                    className="text-lg font-normal"
-                >
 
-                    Cancer is a devastating diagnosis for any individual so it is key to improving the outcomes for cancer patients.                     <br />
-                    <br />
-
+                <p className="text-lg font-normal text-gray-700 leading-relaxed">
+                    Cancer is a devastating diagnosis for any individual, so improving outcomes for cancer patients is key.
+                    <br /><br />
                     The Curenetics AI-powered prediction tool enables patients and doctors to make well-informed decisions about the best route of cancer treatment.
-                    <br />
-                    <br />
-                    Patients can enjoy a higher level of certainty that the precious energy, time, and resources spent on immunotherapy will have a positive impact on their lives. If treatment is likely to be ineffectual, a different course of action can be explored on an individual basis.
+                    <br /><br />
+                    Patients can enjoy a higher level of certainty that the precious energy, time, and resources spent on immunotherapy will have a positive impact on their lives. If treatment is likely to be ineffective, a different course of action can be explored on an individual basis.
                 </p>
+            </div>
+
+            {/* Image Section */ }
+            <div className="w-full md:w-2/5">
+                <img
+                    src="/thePredictionMethods.webp"
+                    alt="The Prediction Methods"
+                    className="w-full h-auto rounded-xl shadow-lg"
+                />
             </div>
         </div>
     );
 }
+
 export default PredictionMethods;
