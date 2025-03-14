@@ -72,7 +72,7 @@ export default function CustomizedTimeline() {
                             <Typography variant="body1" color="text.secondary" sx={ { mt: 1 } }>
                                 Our **intuitive Graphical User Interface (GUI)** integrates with existing hospital systems. With **one click**, doctors can analyze patient data and receive **personalized treatment recommendations**.
                             </Typography>
-                            <ul className=" text-gray-600 text-sm md:text-base mt-2">
+                            <ul className="text-gray-600 text-sm md:text-base mt-2">
                                 <li>**80-90%**: High probability of success.</li>
                                 <li>**50%**: Alternative treatments may be more effective.</li>
                             </ul>
@@ -101,7 +101,7 @@ export default function CustomizedTimeline() {
                             <Typography variant="body1" color="text.secondary" sx={ { mt: 1 } }>
                                 By sourcing data from the NHS, UK Biobank, and similar resources, we can access large, reliable anonymized datasets with ethical approval.
                             </Typography>
-                            <ul className=" text-gray-600 text-sm md:text-base mt-2">
+                            <ul className="text-gray-600 text-sm md:text-base mt-2">
                                 <li><b>Genomic Data:</b> AI processes aspects like metabolomics, proteomics, transcriptomics, and epigenomics.</li>
                                 <li><b>Histopathological Data:</b> AI detects unique cancer patterns from tissue samples.</li>
                                 <li><b>Clinical Data:</b> Includes patient demographics, medical history, and environmental factors.</li>
@@ -140,7 +140,7 @@ export default function CustomizedTimeline() {
                             <Typography variant="body1" color="text.secondary" sx={ { mt: 1 } }>
                                 Our **intuitive Graphical User Interface (GUI)** integrates with existing hospital systems. With **one click**, doctors can analyze patient data and receive **personalized treatment recommendations**.
                             </Typography>
-                            <ul className="list-disc  text-gray-600 text-sm md:text-base mt-2">
+                            <ul className="text-gray-600 text-sm md:text-base mt-2">
                                 <li>**80-90%**: High probability of success.</li>
                                 <li>**50%**: Alternative treatments may be more effective.</li>
                             </ul>

@@ -1,6 +1,7 @@
 "use client"
 import Header from "@/components/Header";
 import { ChevronDownIcon } from '@heroicons/react/24/outline';
+import Link from "next/link";
 
 function AboutUsPage() {
     // Function to handle smooth scrolling
@@ -85,14 +86,14 @@ function AboutUsPage() {
             {/* CTA Section */ }
             <section className="w-full flex flex-col md:flex-row items-center justify-between gap-6 max-w-6xl mx-auto border-t py-10 px-6 border-gray-400">
                 <p className="text-black font-extrabold text-2xl md:text-3xl text-center md:text-left">
-                    Meet the minds behind Curenetics.<br className="hidden md:block" />
+                    Meet the minds behind Curenetics.{ " " }<br className="hidden md:block" />
                     Join us in the fight against cancer.
                 </p>
-                <a href="/team">
+                <Link href="/team">
                     <button className="text-white bg-gradient-to-r from-[#00c6ff] to-[#0072ff] hover:from-[#0096ff] hover:to-[#0057ff] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-md px-4 py-2 transition duration-300">
                         Meet Our Team
                     </button>
-                </a>
+                </Link>
             </section>
         </div>
     );

@@ -1,14 +1,40 @@
+"use client"
+
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+import { useState } from "react";
 import Header from "@/components/Header";
 import Image from "next/image";
 
 const teamMembers = [
-    { name: "Camilla Wilson", role: "Payment Gateway Support", image: "/1.jpg" },
-    { name: "Olive Nacelle", role: "VP of Customer Success", image: "/2.jpg" },
-    { name: "Moin Chalkoo", role: "CTO", image: "/3.jpg" },
-    { name: "Jessica Dobrev", role: "Lead Designer", image: "/4.jpg" },
+    {
+        name: "Camilla Wilson",
+        role: "Payment Gateway Support",
+        image: "/1.jpg",
+        bio: "Camilla is an expert in online payment solutions, ensuring seamless transactions for customers worldwide."
+    },
+    {
+        name: "Olive Nacelle",
+        role: "VP of Customer Success",
+        image: "/2.jpg",
+        bio: "Olive leads the customer success team with a passion for enhancing user experience and satisfaction."
+    },
+    {
+        name: "Moin Chalkoo",
+        role: "CTO",
+        image: "/3.jpg",
+        bio: "Moin drives technological innovation, bringing cutting-edge solutions to the company’s tech stack."
+    },
+    {
+        name: "Jessica Dobrev",
+        role: "Lead Designer",
+        image: "/4.jpg",
+        bio: "Jessica creates stunning UI/UX designs that enhance brand identity and user experience."
+    },
 ];
 
 function TeamPage() {
+    const [ selectedMember, setSelectedMember ] = useState(null);
+
     return (
         <div className="bg-gray-100 min-h-screen">
             <Header />
@@ -28,7 +54,12 @@ function TeamPage() {
                     <div className="flex justify-center items-center w-full">
                         <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
                             { teamMembers.map((member, index) => (
-                                <div key={ index } className="relative group overflow-hidden rounded-lg shadow-lg bg-white">
+                                <div
+                                    key={ index }
+                                    className="relative group cursor-pointer overflow-hidden rounded-lg shadow-lg bg-white transition-transform duration-300 hover:scale-105"
+                                    //@ts-ignore
+                                    onClick={ () => setSelectedMember(member) }
+                                >
                                     <div className="relative w-[250px] h-[300px] mx-auto overflow-hidden rounded-lg">
                                         <Image
                                             src={ member.image }
@@ -51,6 +82,39 @@ function TeamPage() {
                     </div>
                 </div>
             </section>
+
+            {/* Modal */ }
+            { selectedMember && (
+                <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+                    <div className="bg-white rounded-lg shadow-lg max-w-md w-full p-6 relative">
+                        <button
+                            className="absolute top-3 right-3 cursor-pointer text-gray-500 hover:text-gray-800"
+                            onClick={ () => setSelectedMember(null) }
+                        >
+                            ✖
+                        </button>
+                        <div className="text-center">
+                            <Image
+                                // @ts-ignore
+                                src={ selectedMember.image }
+                                // @ts-ignore
+                                alt={ selectedMember.name }
+                                width={ 150 }
+                                height={ 150 }
+                                className="mx-auto rounded-full"
+                            />
+                            {/* @ts-ignore */ }
+
+                            <h2 className="text-2xl font-bold mt-4">{ selectedMember.name }</h2>
+                            {/* @ts-ignore */ }
+                            <p className="text-gray-600 text-lg">{ selectedMember.role }</p>
+                            {/* @ts-ignore */ }
+
+                            <p className="text-gray-700 mt-2">{ selectedMember.bio }</p>
+                        </div>
+                    </div>
+                </div>
+            ) }
         </div>
     );
 }

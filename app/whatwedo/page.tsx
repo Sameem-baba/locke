@@ -38,8 +38,8 @@ function WhatWeDoPage() {
 
         </section>
 
-        <section className='w-full flex items-center md:flex-row flex-col gap-7 max-w-6xl mx-auto border-t py-10 border-gray-400'>
-            <p className='text-black font-extrabold flex-1 text-3xl max-md:text-center'>
+        <section className='w-full px-4 flex items-center md:flex-row flex-col gap-7 max-w-6xl mx-auto border-t py-10 border-gray-400'>
+            <p className='text-black font-extrabold flex-1 text-2xl md:text-3xl max-md:text-center'>
                 The software is expected to launch in Summer 2024. <br className='sm:block hidden' />
                 Book a demo of the Curenetics platform
             </p>
