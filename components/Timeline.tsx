@@ -19,7 +19,7 @@ export default function CustomizedTimeline() {
         <Box className="max-w-5xl mx-auto  py-10">
             { isLargeScreen ? (
                 <Timeline position={ isLargeScreen ? "alternate" : "right" }>
-                    {/* Step 1 */ }
+                    {/* Step 1 - Research & Prototype Development */ }
                     <TimelineItem>
                         <TimelineSeparator>
                             <TimelineConnector />
@@ -28,20 +28,19 @@ export default function CustomizedTimeline() {
                         </TimelineSeparator>
                         <TimelineContent sx={ { py: 3 } }>
                             <Typography variant="h6" fontWeight="bold">
-                                Step 1: Sourcing Anonymized Data
+                                Step 1: Research & Prototype Development
                             </Typography>
                             <Typography variant="body1" color="text.secondary" sx={ { mt: 1 } }>
-                                By sourcing data from the NHS, UK Biobank, and similar resources, we can access large, reliable anonymized datasets with ethical approval.
+                                We analyze market trends and customer behavior to identify pain points in the laundry industry. Using these insights, we create an <b>initial prototype</b>, focusing on <b>smart locker systems and digital service integration</b>.
                             </Typography>
                             <ul className="text-gray-600 text-sm md:text-base mt-2">
-                                <li><b>Genomic Data:</b> AI processes aspects like metabolomics, proteomics, transcriptomics, and epigenomics.</li>
-                                <li><b>Histopathological Data:</b> AI detects unique cancer patterns from tissue samples.</li>
-                                <li><b>Clinical Data:</b> Includes patient demographics, medical history, and environmental factors.</li>
+                                <li><b>Market Research:</b> Gathering real-time data on consumer needs.</li>
+                                <li><b>Prototype Testing:</b> Developing a <b>minimum viable product (MVP)</b> with core features.</li>
                             </ul>
                         </TimelineContent>
                     </TimelineItem>
 
-                    {/* Step 2 */ }
+                    {/* Step 2 - Customization & Market Expansion */ }
                     <TimelineItem>
                         <TimelineSeparator>
                             <TimelineConnector />
@@ -50,15 +49,23 @@ export default function CustomizedTimeline() {
                         </TimelineSeparator>
                         <TimelineContent sx={ { py: 3 } }>
                             <Typography variant="h6" fontWeight="bold">
-                                Step 2: Developing a Predictive Model
+                                Step 2: Customization & Market Expansion
                             </Typography>
                             <Typography variant="body1" color="text.secondary" sx={ { mt: 1 } }>
-                                We use **advanced AI models** to layer different data types and analyze missing values. Our **patented deep learning model** detects patterns that predict a patient’s response to treatment.
+                                We refine our platform through <b>beta testing and real-time analytics</b>, ensuring seamless integration with <b>laundry businesses of all sizes</b>.
+                            </Typography>
+                            <ul className="text-gray-600 text-sm md:text-base mt-2">
+                                <li><b>Optimizing smart locker logistics & delivery tracking.</b></li>
+                                <li><b>Enhancing customer interactions with AI-driven recommendations.</b></li>
+                                <li><b>Customizing software solutions for large & mid-sized laundry providers.</b></li>
+                            </ul>
+                            <Typography variant="body1" color="text.secondary" sx={ { mt: 2 } }>
+                                Through continuous collaboration, we develop a <b>scalable and adaptable</b> solution tailored to real-world business needs.
                             </Typography>
                         </TimelineContent>
                     </TimelineItem>
 
-                    {/* Step 3 */ }
+                    {/* Step 3 - Enhanced User Experience & Scaling */ }
                     <TimelineItem>
                         <TimelineSeparator>
                             <TimelineConnector />
@@ -67,15 +74,19 @@ export default function CustomizedTimeline() {
                         </TimelineSeparator>
                         <TimelineContent sx={ { py: 3 } }>
                             <Typography variant="h6" fontWeight="bold">
-                                Step 3: Producing a Simple Interface
+                                Step 3: User Experience & Automation
                             </Typography>
                             <Typography variant="body1" color="text.secondary" sx={ { mt: 1 } }>
-                                Our **intuitive Graphical User Interface (GUI)** integrates with existing hospital systems. With **one click**, doctors can analyze patient data and receive **personalized treatment recommendations**.
+                                With data-driven insights, we refine <b>UI/UX design, automate workflows</b>, and scale operations for <b>maximum efficiency</b>.
                             </Typography>
                             <ul className="text-gray-600 text-sm md:text-base mt-2">
-                                <li>**80-90%**: High probability of success.</li>
-                                <li>**50%**: Alternative treatments may be more effective.</li>
+                                <li><b>A/B testing & customer feedback integration.</b></li>
+                                <li><b>AI-driven service recommendations & predictive analytics.</b></li>
+                                <li><b>Seamless user interface for frictionless transactions.</b></li>
                             </ul>
+                            <Typography variant="body1" color="text.secondary" sx={ { mt: 2 } }>
+                                Our <b>continuous improvement cycle</b> ensures <b>businesses stay ahead</b> in an evolving digital landscape.
+                            </Typography>
                         </TimelineContent>
                     </TimelineItem>
                 </Timeline>
@@ -87,8 +98,8 @@ export default function CustomizedTimeline() {
                     },
                 }
                 }>
-                    {/* Step 1 */ }
-                    < TimelineItem >
+                    {/* Step 1 - Research & Prototype Development */ }
+                    <TimelineItem>
                         <TimelineSeparator>
                             <TimelineConnector />
                             <TimelineDot color="primary" />
@@ -96,21 +107,20 @@ export default function CustomizedTimeline() {
                         </TimelineSeparator>
                         <TimelineContent sx={ { py: 3 } }>
                             <Typography variant="h6" fontWeight="bold">
-                                Step 1: Sourcing Anonymized Data
+                                Step 1: Research & Prototype Development
                             </Typography>
                             <Typography variant="body1" color="text.secondary" sx={ { mt: 1 } }>
-                                By sourcing data from the NHS, UK Biobank, and similar resources, we can access large, reliable anonymized datasets with ethical approval.
+                                We analyze market trends and customer behavior to identify pain points in the laundry industry. Using these insights, we create an <b>initial prototype</b>, focusing on <b>smart locker systems and digital service integration</b>.
                             </Typography>
                             <ul className="text-gray-600 text-sm md:text-base mt-2">
-                                <li><b>Genomic Data:</b> AI processes aspects like metabolomics, proteomics, transcriptomics, and epigenomics.</li>
-                                <li><b>Histopathological Data:</b> AI detects unique cancer patterns from tissue samples.</li>
-                                <li><b>Clinical Data:</b> Includes patient demographics, medical history, and environmental factors.</li>
+                                <li><b>Market Research:</b> Gathering real-time data on consumer needs.</li>
+                                <li><b>Prototype Testing:</b> Developing a <b>minimum viable product (MVP)</b> with core features.</li>
                             </ul>
                         </TimelineContent>
-                    </TimelineItem >
+                    </TimelineItem>
 
-                    {/* Step 2 */ }
-                    < TimelineItem >
+                    {/* Step 2 - Customization & Market Expansion */ }
+                    <TimelineItem>
                         <TimelineSeparator>
                             <TimelineConnector />
                             <TimelineDot color="primary" />
@@ -118,34 +128,46 @@ export default function CustomizedTimeline() {
                         </TimelineSeparator>
                         <TimelineContent sx={ { py: 3 } }>
                             <Typography variant="h6" fontWeight="bold">
-                                Step 2: Developing a Predictive Model
+                                Step 2: Customization & Market Expansion
                             </Typography>
                             <Typography variant="body1" color="text.secondary" sx={ { mt: 1 } }>
-                                We use **advanced AI models** to layer different data types and analyze missing values. Our **patented deep learning model** detects patterns that predict a patient’s response to treatment.
-                            </Typography>
-                        </TimelineContent>
-                    </TimelineItem >
-
-                    {/* Step 3 */ }
-                    < TimelineItem >
-                        <TimelineSeparator>
-                            <TimelineConnector />
-                            <TimelineDot color="primary" />
-                            <TimelineConnector />
-                        </TimelineSeparator>
-                        <TimelineContent sx={ { py: 3 } }>
-                            <Typography variant="h6" fontWeight="bold">
-                                Step 3: Producing a Simple Interface
-                            </Typography>
-                            <Typography variant="body1" color="text.secondary" sx={ { mt: 1 } }>
-                                Our **intuitive Graphical User Interface (GUI)** integrates with existing hospital systems. With **one click**, doctors can analyze patient data and receive **personalized treatment recommendations**.
+                                We refine our platform through <b>beta testing and real-time analytics</b>, ensuring seamless integration with <b>laundry businesses of all sizes</b>.
                             </Typography>
                             <ul className="text-gray-600 text-sm md:text-base mt-2">
-                                <li>**80-90%**: High probability of success.</li>
-                                <li>**50%**: Alternative treatments may be more effective.</li>
+                                <li><b>Optimizing smart locker logistics & delivery tracking.</b></li>
+                                <li><b>Enhancing customer interactions with AI-driven recommendations.</b></li>
+                                <li><b>Customizing software solutions for large & mid-sized laundry providers.</b></li>
                             </ul>
+                            <Typography variant="body1" color="text.secondary" sx={ { mt: 2 } }>
+                                Through continuous collaboration, we develop a <b>scalable and adaptable</b> solution tailored to real-world business needs.
+                            </Typography>
                         </TimelineContent>
-                    </TimelineItem >
+                    </TimelineItem>
+
+                    {/* Step 3 - Enhanced User Experience & Scaling */ }
+                    <TimelineItem>
+                        <TimelineSeparator>
+                            <TimelineConnector />
+                            <TimelineDot color="primary" />
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent sx={ { py: 3 } }>
+                            <Typography variant="h6" fontWeight="bold">
+                                Step 3: User Experience & Automation
+                            </Typography>
+                            <Typography variant="body1" color="text.secondary" sx={ { mt: 1 } }>
+                                With data-driven insights, we refine <b>UI/UX design, automate workflows</b>, and scale operations for <b>maximum efficiency</b>.
+                            </Typography>
+                            <ul className="text-gray-600 text-sm md:text-base mt-2">
+                                <li><b>A/B testing & customer feedback integration.</b></li>
+                                <li><b>AI-driven service recommendations & predictive analytics.</b></li>
+                                <li><b>Seamless user interface for frictionless transactions.</b></li>
+                            </ul>
+                            <Typography variant="body1" color="text.secondary" sx={ { mt: 2 } }>
+                                Our <b>continuous improvement cycle</b> ensures <b>businesses stay ahead</b> in an evolving digital landscape.
+                            </Typography>
+                        </TimelineContent>
+                    </TimelineItem>
                 </Timeline >
             ) }
 

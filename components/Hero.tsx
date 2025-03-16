@@ -37,11 +37,9 @@ function Hero() {
                 </div> */}
                 <div className="text-center">
                     <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl">
-                        We are working to defeat cancer with data driven technology
-                    </h1>
+                        A next-gen technology solution to digitize your business.                    </h1>
                     <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
-                        Personalising cancer care with AI-powered prediction of treatment response
-                    </p>
+                        Smart laundry, smart locker, and seamless service bring bigger profits                    </p>
                     <div className="mt-10 flex items-center justify-center gap-x-6">
                         <Link
                             href="/bookatrial"

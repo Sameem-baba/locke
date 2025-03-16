@@ -33,10 +33,10 @@ function AboutUsPage() {
                 <div className="absolute inset-0 bg-black/50 flex items-center justify-center px-6 text-center text-white">
                     <div>
                         <h1 className="text-3xl md:text-6xl font-bold">
-                            We are Curenetics
+                            We are Laundroark
                         </h1>
                         <p className="mt-4 text-sm md:text-2xl max-w-lg md:max-w-3xl mx-auto leading-relaxed">
-                            It is our mission to accurately predict treatment responses for cancer patients using powerful AI technology.
+                            Our mission is to transform laundry services with smart technology, automation, and AI-driven solutions for seamless efficiency and customer convenience.
                         </p>
                         <button
                             onClick={ handleScrollToSection }
@@ -68,26 +68,27 @@ function AboutUsPage() {
                 <div className="mt-10 grid grid-cols-1 text-center md:grid-cols-12 gap-10">
                     <div className="md:col-start-3 md:col-span-8 text-lg text-gray-700 leading-relaxed">
                         <p>
-                            Curenetics brings together a diverse team of industry-leading specialists. Collaboration is central to our approach, combining the capabilities of practicing clinicians, AI engineers, data scientists, cancer biologists, and immunologists to tackle this single complex challenge.
+                            At Laundroark, we are dedicated to revolutionizing the laundry industry by integrating smart technology, automation, and AI-driven solutions. Our goal is to empower businesses to maximize efficiency, enhance customer convenience, and thrive in the digital age.
                         </p>
                         <p className="mt-6">
-                            Fundamental to our research is access to high-quality existing data sets. We gather and analyze patient genomics, imaging profiles, and clinical information from hospitals and labs, developing AI models that can layer these markers to produce uniquely accurate results.
+                            Our diverse and skilled team of over 50 software and mechanical engineers is committed to developing cutting-edge digital platforms and smart locker systems. Through our innovative technology, we are enhancing the way businesses manage and operate their laundry services.
                         </p>
                         <p className="mt-6">
-                            Currently at the Proof-of-Concept stage, our model will integrate into established health systems to give patients and doctors a reliable, accurate, and cost-effective tool to make informed choices about cancer treatment options.
+                            Currently in the market exploration phase, we are refining our solutions to ensure seamless integration for laundry providers of all sizes. Our smart lockers and AI-powered logistics are designed to optimize operations, increase profitability, and deliver a superior customer experience.
                         </p>
                         <p className="mt-6">
-                            Curenetics also has a pipeline of AI-driven projects currently at the discovery stage, which include the diagnosis of oral cancer and the prediction of stem cell transplant rejection.
+                            By leveraging real-time analytics, user-centric design, and industry insights, we are continuously innovating to create a future where digital laundry solutions are the standard, not the exception. Join us in shaping the next generation of laundry services.
                         </p>
                     </div>
                 </div>
             </section>
 
+
             {/* CTA Section */ }
             <section className="w-full flex flex-col md:flex-row items-center justify-between gap-6 max-w-6xl mx-auto border-t py-10 px-6 border-gray-400">
                 <p className="text-black font-extrabold text-2xl md:text-3xl text-center md:text-left">
-                    Meet the minds behind Curenetics.{ " " }<br className="hidden md:block" />
-                    Join us in the fight against cancer.
+                    Meet the innovators behind Laundroark.<br className="hidden md:block" />
+                    Transforming the laundry industry with smart technology.
                 </p>
                 <Link href="/team">
                     <button className="text-white bg-gradient-to-r from-[#00c6ff] to-[#0072ff] hover:from-[#0096ff] hover:to-[#0057ff] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-md px-4 py-2 transition duration-300">

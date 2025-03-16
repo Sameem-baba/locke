@@ -11,18 +11,18 @@ function PredictionMethods() {
                 </div>
 
                 <p className="text-lg font-normal text-gray-700 leading-relaxed">
-                    Cancer is a devastating diagnosis for any individual, so improving outcomes for cancer patients is key.
+                    In today&apos;s evolving market, an undeniable trend towards digitisation is taking shape. This represents a pivotal moment for businesses, as the ability to embrace, retain, and expand in this new landscape is crucial
                     <br /><br />
-                    The Curenetics AI-powered prediction tool enables patients and doctors to make well-informed decisions about the best route of cancer treatment.
+                    The foundation of this digitisation trend lies in the growing shift in consumer behaviour toward digital interfaces. People are increasingly relying on these modern solutions, which prove to enhance their lives more effectively than traditional methods.
                     <br /><br />
-                    Patients can enjoy a higher level of certainty that the precious energy, time, and resources spent on immunotherapy will have a positive impact on their lives. If treatment is likely to be ineffective, a different course of action can be explored on an individual basis.
+                    As a technology solution provider, we are dedicated to assisting both current and prospective businesses in seamlessly transitioning to a digital operational model. Our goal is to make this transformation quick and efficient, ensuring you can adapt and thrive in this digital era. Let&apos;s work together to navigate this journey successfully.
                 </p>
             </div>
 
             {/* Image Section */ }
             <div className="w-full md:w-2/5">
                 <img
-                    src="/thePredictionMethods.webp"
+                    src="/vision.webp"
                     alt="The Prediction Methods"
                     className="w-full h-auto rounded-xl shadow-lg"
                 />

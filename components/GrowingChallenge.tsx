@@ -6,7 +6,7 @@ function GrowingChallenge() {
             {/* Image Section */ }
             <div className="w-full md:w-2/5">
                 <img
-                    src="/thegrowingchallenge.webp"
+                    src="/growingchallenge.png"
                     alt="The Growing Challenge"
                     className="w-full h-auto rounded-xl shadow-lg"
                 />
@@ -20,13 +20,10 @@ function GrowingChallenge() {
                 </div>
 
                 <p className="text-lg font-normal text-gray-700 leading-relaxed">
-                    Over 3 million patients are living with cancer in the UK alone, with 1,000 new diagnoses every day.
-                    <br /><br />
+                    Since 2022, a significant shift has been observed in the UK laundry market, with an increasing number of customers opting for digital laundry services instead of traditional ones.                    <br /><br />
                     The UK cancer survival rate falls behind many other developed countries, and outcomes for patients are extremely variable.
                     <br /><br />
-                    Just 20-30% of cancer patients respond well to the treatment they are offered, which can cost up to £90,000 per patient.
-                    <br /><br />
-                    In every 100 patients treated with immunotherapy, up to 55 will experience severe or even life-threatening side effects. Toxicities attack the skin, colon, endocrine organs, liver, and lungs. Many more patients undergo immunotherapy treatment only to suffer from non-response or eventual relapse.
+                    In 2023, the UK’s online laundry market is valued at approximately $1.98 billion and is projected to exceed $14 billion by 2030, reflecting a compound annual growth rate of 33.8%. In contrast, the traditional market segment is dwindling, now valued at only $2 billion.
                 </p>
             </div>
         </div>
