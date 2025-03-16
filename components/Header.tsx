@@ -41,7 +41,7 @@ export default function Header() {
                 <div className="flex lg:flex-1">
                     <Link href="/" className="-m-1.5 flex items-center space-x-2 p-1.5">
                         <LockClosedIcon className={ `h-6 w-6 ${textColor}` } />
-                        <span className={ `text-sm/6 uppercase tracking-widest font-semibold ${textColor}` }>Locke</span>
+                        <span className={ `text-sm/6 uppercase tracking-widest font-semibold ${textColor}` }>Laundroark</span>
                     </Link>
                 </div>
                 <div className="flex lg:hidden">
@@ -59,11 +59,10 @@ export default function Header() {
                     <Link href="/whatwedo" className={ `text-sm/6 font-medium uppercase tracking-widest ${getLinkClass("/whatwedo")}` }>What we do</Link>
                     <Link href="/howitworks" className={ `text-sm/6 font-medium uppercase tracking-widest ${getLinkClass("/howitworks")}` }>How it works</Link>
                     <Link href="/team" className={ `text-sm/6 font-medium uppercase tracking-widest ${getLinkClass("/team")}` }>Team</Link>
-                    <Link href="/contact" className={ `text-sm/6 font-medium uppercase tracking-widest ${getLinkClass("/contact")}` }>Contact</Link>
                 </PopoverGroup>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                     <Link href="/bookatrial" className={ `text-sm/6 font-medium uppercase tracking-widest rounded-full py-1 px-3 ${textColor} border border-blue-600` }>
-                        Book a Trial <span aria-hidden="true">&rarr;</span>
+                        Contact <span aria-hidden="true">&rarr;</span>
                     </Link>
                 </div>
             </nav>
@@ -92,11 +91,10 @@ export default function Header() {
                                 <Link href="/whatwedo" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">What we do</Link>
                                 <Link href="/howitworks" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">How it works</Link>
                                 <Link href="/team" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Team</Link>
-                                <Link href="/contact" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Contact</Link>
 
                             </div>
                             <div className="py-6">
-                                <Link href="/bookatrial" className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Book a trial</Link>
+                                <Link href="/contact" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Contact</Link>
                             </div>
                         </div>
                     </div>

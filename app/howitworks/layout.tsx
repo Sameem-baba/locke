@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
     title: "Locke | How It Works",
-    description: "Our smart locker-based laundry system streamlines the entire process—from placing an order to picking up fresh, clean clothes—all through a fully automated, tech-driven workflow.",
+    description: "Our smart laundroarkr-based laundry system streamlines the entire process—from placing an order to picking up fresh, clean clothes—all through a fully automated, tech-driven workflow.",
 };
 
 export default function HowItWorksLayout({

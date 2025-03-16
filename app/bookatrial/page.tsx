@@ -20,7 +20,7 @@ export default function BookTrial() {
             <Header />
             <h1 className="text-3xl font-semibold text-center mb-6">Book a Free Trial</h1>
             <p className="text-gray-600 text-center md:w-2/3 mb-4">
-                By booking a demo, you&apos;ll experience first-hand how our cutting-edge digital platform transforms the laundry industry. Developed in collaboration with technology experts and industry leaders, our AI-powered system and smart lockers optimize operations, enhance customer convenience, and maximize profitability. Our intuitive, globally adaptable interface enables businesses to manage orders, track logistics, and streamline services effortlessly—all at the click of a button. 🚀
+                By booking a demo, you&apos;ll experience first-hand how our cutting-edge digital platform transforms the laundry industry. Developed in collaboration with technology experts and industry leaders, our AI-powered system and smart laundroarkrs optimize operations, enhance customer convenience, and maximize profitability. Our intuitive, globally adaptable interface enables businesses to manage orders, track logistics, and streamline services effortlessly—all at the click of a button. 🚀
             </p>
 
             <Card className="w-full max-w-6xl p-4 bg-white shadow-md rounded-2xl">
