@@ -20,7 +20,7 @@ export default function Header() {
     }, [])
 
     // Determine text color based on the page and scroll state
-    const textColor = pathname === "/" || pathname === "/team" || pathname === "/contact" || pathname === "/bookatrial" ? "text-black" : isScrolled ? "text-black" : "text-white";
+    const textColor = pathname === "/team" || pathname === "/contact" ? "text-black" : isScrolled ? "text-black" : "text-white";
     const bgColor = isScrolled ? "bg-white shadow-lg" : "bg-transparent";
 
     // Function to handle active link styling
@@ -28,9 +28,9 @@ export default function Header() {
         if (pathname === href) {
             return "text-blue-600 font-semibold";
         }
-        return pathname === "/" || pathname === "/team" || pathname === "/contact" || pathname === "/bookatrial"
-            ? "text-black hover:text-gray-700"
-            : isScrolled
+        return pathname === "/team" || pathname === "/contact" ?
+            "text-black" :
+            isScrolled
                 ? "text-black hover:text-gray-700"
                 : "text-white hover:text-gray-300";
     };

@@ -2,7 +2,7 @@
 
 function PredictionMethods() {
     return (
-        <div className="flex flex-col-reverse md:flex-row items-center justify-center w-full px-4 md:px-10 lg:px-16 py-10 gap-8">
+        <div className="flex flex-col-reverse md:flex-row items-center justify-center max-w-7xl mx-auto w-full px-4 md:px-10 lg:px-16 py-10 gap-8">
             {/* Text Section */ }
             <div className="w-full md:w-3/5 flex flex-col justify-center text-center md:text-left">
                 <div className="text-4xl font-black font-marker">

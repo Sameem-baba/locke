@@ -6,7 +6,7 @@ import PredictionMethods from "@/components/PredictionMethods";
 
 export default function Home() {
   return (
-    <div className="bg-white h-screen max-w-7xl mx-auto">
+    <div className="bg-white h-screen ">
       <Header />
       <Hero />
       <GrowingChallenge />

@@ -39,11 +39,11 @@ function WhatWeDoPage() {
 
         <section className='w-full px-4 flex items-center md:flex-row flex-col gap-7 max-w-6xl mx-auto border-t py-10 border-gray-400'>
             <p className='text-black font-extrabold flex-1 text-2xl md:text-3xl max-md:text-center'>
-                The software is expected to launch in Summer 2025. <br className='sm:block hidden' />
-                Book a demo of the Laundroark platform
+                Want to know how it works? <br className='sm:block hidden' />
+                Click the button
             </p>
-            <Link href="/bookatrial" className="text-white bg-gradient-to-r from-[#00c6ff] to-[#0072ff] hover:from-[#0096ff] hover:to-[#0057ff] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-md px-4 py-2 transition duration-300">
-                Book now
+            <Link href="/howitworks" className="text-white bg-gradient-to-r from-[#00c6ff] to-[#0072ff] hover:from-[#0096ff] hover:to-[#0057ff] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-md px-4 py-2 transition duration-300">
+                Click Here
             </Link>
         </section>
     </div>;
