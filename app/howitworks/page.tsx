@@ -118,6 +118,35 @@ function HowItWorksPage() {
                 </Accordion>
             </section>
 
+            <section className="flex flex-col justify-center items-center max-w-6xl mx-auto px-4 md:px-8 pb-10">
+                <h1 className="font-bold text-3xl md:text-4xl uppercase tracking-wider text-center py-10">
+                    Additional Features
+                </h1>
+
+                <Accordion type="single" collapsible className="w-full">
+                    {/* Step 6 - Delivery Back to Smart Lockers */ }
+                    <AccordionItem value="step-6">
+                        <AccordionTrigger className="text-2xl no-underline hover:no-underline">
+                            Feature 1: Delivery Back to Smart Lockers
+                        </AccordionTrigger>
+                        <AccordionContent className="text-lg md:text-xl leading-relaxed">
+                            <b>Logistics staff scans orders, assigns an available locker slot</b>, and places the cleaned laundry inside. Customers receive a <b>pickup notification with a new QR code</b>.
+                        </AccordionContent>
+                    </AccordionItem>
+
+
+                    {/* Step 7 - Customer Pickup */ }
+                    <AccordionItem value="step-7">
+                        <AccordionTrigger className="text-2xl no-underline hover:no-underline">
+                            Feature 2: Customer Picks Up Clean Laundry
+                        </AccordionTrigger>
+                        <AccordionContent className="text-lg md:text-xl leading-relaxed">
+                            Customers scan their <b>Pickup QR code</b>, the smart locker unlocks, and they retrieve their fresh laundry. Order status updates to <b>&quot;Completed&quot;</b>, and the process resets for the next customer.
+                        </AccordionContent>
+                    </AccordionItem>
+                </Accordion>
+            </section>
+
             {/* CTA Section */ }
             <section className="w-full flex items-center md:flex-row flex-col gap-7 max-w-6xl mx-auto border-t py-10 border-gray-400 px-5 md:px-0">
                 <p className="text-black font-extrabold flex-1 text-3xl max-md:text-center">
