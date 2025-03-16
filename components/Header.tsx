@@ -61,8 +61,8 @@ export default function Header() {
                     <Link href="/team" className={ `text-sm/6 font-medium uppercase tracking-widest ${getLinkClass("/team")}` }>Team</Link>
                 </PopoverGroup>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                    <Link href="/bookatrial" className={ `text-sm/6 font-medium uppercase tracking-widest rounded-full py-1 px-3 ${textColor} border border-blue-600` }>
-                        Contact <span aria-hidden="true">&rarr;</span>
+                    <Link href="/contact" className={ `text-sm/6 font-medium uppercase tracking-widest rounded-full py-1 px-3 ${textColor} border border-blue-600` }>
+                        Contact Us <span aria-hidden="true">&rarr;</span>
                     </Link>
                 </div>
             </nav>
@@ -94,7 +94,9 @@ export default function Header() {
 
                             </div>
                             <div className="py-6">
-                                <Link href="/contact" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Contact</Link>
+                                <Link href="/contact" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
+                                    Contact us
+                                </Link>
                             </div>
                         </div>
                     </div>
