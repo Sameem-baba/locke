@@ -95,26 +95,6 @@ function HowItWorksPage() {
                             Once cleaned, clothes undergo <b>automated ironing, folding, or hanging</b>. They are then <b>securely packed</b> using eco-friendly materials, preparing them for delivery.
                         </AccordionContent>
                     </AccordionItem>
-
-                    {/* Step 6 - Delivery Back to Smart Lockers */ }
-                    <AccordionItem value="step-6">
-                        <AccordionTrigger className="text-2xl no-underline hover:no-underline">
-                            Step 6: Delivery Back to Smart Lockers
-                        </AccordionTrigger>
-                        <AccordionContent className="text-lg md:text-xl leading-relaxed">
-                            <b>Logistics staff scans orders, assigns an available locker slot</b>, and places the cleaned laundry inside. Customers receive a <b>pickup notification with a new QR code</b>.
-                        </AccordionContent>
-                    </AccordionItem>
-
-                    {/* Step 7 - Customer Pickup */ }
-                    <AccordionItem value="step-7">
-                        <AccordionTrigger className="text-2xl no-underline hover:no-underline">
-                            Step 7: Customer Picks Up Clean Laundry
-                        </AccordionTrigger>
-                        <AccordionContent className="text-lg md:text-xl leading-relaxed">
-                            Customers scan their <b>Pickup QR code</b>, the smart locker unlocks, and they retrieve their fresh laundry. Order status updates to <b>&quot;Completed&quot;</b>, and the process resets for the next customer.
-                        </AccordionContent>
-                    </AccordionItem>
                 </Accordion>
             </section>
 
