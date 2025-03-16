@@ -45,7 +45,7 @@ function Hero() {
                             href="/bookatrial"
                             className="rounded-md uppercase tracking-wider bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-blue-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                         >
-                            Book A Trial
+                            Contact us
                         </Link>
                         <button
                             onClick={ handleScrollToSection }
