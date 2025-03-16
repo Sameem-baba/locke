@@ -7,26 +7,26 @@ import Image from "next/image";
 
 const teamMembers = [
     {
-        name: "Camilla Wilson",
-        role: "Payment Gateway Support",
+        name: "Charlie Zhai",
+        role: "Business Partner",
         image: "/1.jpg",
-        bio: "Camilla is an expert in online payment solutions, ensuring seamless transactions for customers worldwide."
+        bio: "I’m Charlie Zhai—an entrepreneur at heart and always up for a new challenge. I’ve built several businesses, from an online tailor shop (SuitMySize.com) to an oriental noodle bar (NoodleExpress). I love innovation, fresh ideas, and turning them into reality."
     },
     {
-        name: "Olive Nacelle",
-        role: "VP of Customer Success",
+        name: "Leo Li",
+        role: "Project Lead",
         image: "/2.jpg",
         bio: "Olive leads the customer success team with a passion for enhancing user experience and satisfaction."
     },
     {
         name: "Moin Chalkoo",
-        role: "CTO",
+        role: "Tech Lead / Software Engineer",
         image: "/3.jpg",
         bio: "Moin drives technological innovation, bringing cutting-edge solutions to the company’s tech stack."
     },
     {
-        name: "Jessica Dobrev",
-        role: "Lead Designer",
+        name: "Akins",
+        role: "Marketing Lead",
         image: "/4.jpg",
         bio: "Jessica creates stunning UI/UX designs that enhance brand identity and user experience."
     },

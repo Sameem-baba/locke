@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
     title: "Locke | Book A Trial",
-    description: "",
+    description: "By booking a demo, you'll experience first-hand how our cutting-edge digital platform transforms the laundry industry. Developed in collaboration with technology experts and industry leaders, our AI-powered system and smart lockers optimize operations, enhance customer convenience, and maximize profitability. Our intuitive, globally adaptable interface enables businesses to manage orders, track logistics, and streamline services effortlessly—all at the click of a button. 🚀",
 };
 
 export default function BookATrialLayout({

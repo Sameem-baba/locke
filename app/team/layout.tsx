@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
     title: "Locke | Team",
-    description: "",
+    description: "Our philosophy is simple: hire great people and give them the resources and support to do their best work.",
 };
 
 export default function TeamLayout({
