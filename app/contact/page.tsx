@@ -39,10 +39,10 @@ function ContactPage() {
 
         emailjs
             .send(
-                "service_hduyvie", // Replace with your EmailJS Service ID
-                "template_81x717m", // Replace with your EmailJS Template ID
+                process.env.NEXT_PUBLIC_EMAILJS_SERVICEID!, // Replace with your EmailJS Service ID
+                process.env.NEXT_PUBLIC_EMAILJS_TEMPLATEID!, // Replace with your EmailJS Template ID
                 templateParams,
-                "ytyoA4PFk6NRjLxGz" // Replace with your EmailJS Public Key
+                process.env.NEXT_PUBLIC_EMAILJS_PUBLICKEY // Replace with your EmailJS Public Key
             )
             .then(() => {
                 setSuccess(true);
