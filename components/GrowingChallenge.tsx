@@ -23,6 +23,9 @@ function GrowingChallenge() {
                     Since 2022, a significant shift has been observed in the UK laundry market, with an increasing number of customers opting for digital laundry services instead of traditional ones.
                     <br /><br />
                     In 2023, the UK’s online laundry market is valued at approximately $1.98 billion and is projected to exceed $14 billion by 2030, reflecting a compound annual growth rate of 33.8%. In contrast, the traditional market segment is dwindling, now valued at only $2 billion.
+                    <br /> <br />
+                    The challenge has also presented an opportunity to digitalise the business model, thereby enhancing operational efficiency, increasing customer acquisition, and streamlining management processes.
+
                 </p>
             </div>
         </div>

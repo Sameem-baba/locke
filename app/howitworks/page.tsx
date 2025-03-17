@@ -82,7 +82,7 @@ function HowItWorksPage() {
                             Step 4: Cleaning & Processing
                         </AccordionTrigger>
                         <AccordionContent className="text-lg md:text-xl leading-relaxed">
-                            At the <b>laundry facility</b>, orders are automatically classified into <b>Water Wash or Dry Cleaning</b>. AI-driven washing and drying processes <b>ensure precision cleaning</b>.
+                            At the <b>laundry facility</b>, orders are automatically classified into Water Wash or Dry Cleaning.
                         </AccordionContent>
                     </AccordionItem>
 
@@ -92,7 +92,7 @@ function HowItWorksPage() {
                             Step 5: Ironing & Packaging
                         </AccordionTrigger>
                         <AccordionContent className="text-lg md:text-xl leading-relaxed">
-                            Once cleaned, clothes undergo <b>automated ironing, folding, or hanging</b>. They are then <b>securely packed</b> using eco-friendly materials, preparing them for delivery.
+                            Once laundered, garments are ironed, folded, or hung. They are subsequently sorted automatically for each order using our <b>advanced automated cloth sortation pipeline</b> and securely packaged with <b>eco-friendly</b> materials, ensuring their readiness for delivery.
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>
@@ -107,10 +107,10 @@ function HowItWorksPage() {
                     {/* Step 6 - Delivery Back to Smart Lockers */ }
                     <AccordionItem value="step-6">
                         <AccordionTrigger className="text-2xl no-underline hover:no-underline">
-                            Feature 1: Delivery Back to Smart Lockers
+                            Post-pickup customer process
                         </AccordionTrigger>
                         <AccordionContent className="text-lg md:text-xl leading-relaxed">
-                            <b>Logistics staff scans orders, assigns an available locker slot</b>, and places the cleaned laundry inside. Customers receive a <b>pickup notification with a new QR code</b>.
+                            Customers can <b>submit after-sales requests</b> for issues like missing items or poor cleaning quality, and they can rate and review the service to help improve quality. Meanwhile, <b>the system monitors cabinet conditions</b> for scheduled maintenance and tracks equipment status to <b>prevent disruptions</b>
                         </AccordionContent>
                     </AccordionItem>
 
@@ -118,10 +118,10 @@ function HowItWorksPage() {
                     {/* Step 7 - Customer Pickup */ }
                     <AccordionItem value="step-7">
                         <AccordionTrigger className="text-2xl no-underline hover:no-underline">
-                            Feature 2: Customer Picks Up Clean Laundry
+                            Monitoring & data analysis
                         </AccordionTrigger>
                         <AccordionContent className="text-lg md:text-xl leading-relaxed">
-                            Customers scan their <b>Pickup QR code</b>, the smart locker unlocks, and they retrieve their fresh laundry. Order status updates to <b>&quot;Completed&quot;</b>, and the process resets for the next customer.
+                            The system manages the <b>full order lifecycle</b>, remotely controls smart cabinets, tracks laundry processes and logistics, handles payments and refunds, and <b>provides analytics on order completion</b>, after-sales feedback, and equipment usage.
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>
