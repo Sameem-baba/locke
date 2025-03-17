@@ -1,9 +1,10 @@
+/* eslint-disable @next/next/no-img-element */
 "use client"
 
 import { useState, useEffect } from 'react'
 import { usePathname } from 'next/navigation'
 import { Dialog, PopoverGroup } from '@headlessui/react'
-import { Bars3Icon, LockClosedIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -44,7 +45,7 @@ export default function Header() {
             <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
                 <div className="flex lg:flex-1">
                     <Link href="/" className="-m-1.5 flex items-center space-x-2 p-1.5">
-                        <LockClosedIcon className={ `h-6 w-6 ${textColor}` } />
+                        <img className='h-8 w-8' src="/logo.png" alt="" />
                         <span className={ `text-sm uppercase tracking-widest font-semibold ${textColor}` }>Laundroark</span>
                     </Link>
                 </div>
@@ -95,7 +96,7 @@ export default function Header() {
                             >
                                 <div className="flex items-center justify-between">
                                     <Link href="/" className="-m-1.5 p-1.5">
-                                        <LockClosedIcon className="h-6 w-6 text-gray-900" />
+                                        <img className='h-8 w-8' src="/logo.png" alt="" />
                                     </Link>
                                     <button
                                         type="button"
