@@ -29,7 +29,7 @@ const teamMembers = [
         name: "Akins",
         role: "Marketing Lead",
         image: "/4.jpg",
-        bio: "Jessica creates stunning UI/UX designs that enhance brand identity and user experience."
+        bio: "An experienced analyst with a Master's degree in Management from Essex Business School, an expert on business development acumen with expertise in regulatory frameworks. With a solid background in financial service.I have experience in compliance and regulatory risk management.I am seasoned professional with over 5 years in the financial service sector."
     },
 ];
 
