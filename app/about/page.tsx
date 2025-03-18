@@ -71,13 +71,13 @@ function AboutUsPage() {
                             At Laundroark, we are dedicated to revolutionizing the laundry industry by integrating smart technology, automation, and AI-driven solutions. Our goal is to empower businesses to maximize efficiency, enhance customer convenience, and thrive in the digital age.
                         </p>
                         <p className="mt-6">
-                            Our diverse and skilled team of over 50 software and mechanical engineers is committed to developing cutting-edge digital platforms and smart locker systems. Through our innovative technology, we are enhancing the way businesses manage and operate their laundry services.
+                            Our robust technology development team, consisting of software and mechanical engineers, is committed to developing cutting-edge digital platforms and smart locker systems. Through our innovative technology, we are enhancing the way businesses manage and operate their laundry services.
                         </p>
                         <p className="mt-6">
                             Currently in the market exploration phase, we are refining our solutions to ensure seamless integration for laundry providers of all sizes. Our smart lockers and AI-powered logistics are designed to optimize operations, increase profitability, and deliver a superior customer experience.
                         </p>
                         <p className="mt-6">
-                            By leveraging real-time analytics, user-centric design, and industry insights, we are continuously innovating to create a future where digital laundry solutions are the standard, not the exception. Join us in shaping the next generation of laundry services.
+                            By leveraging real-time analytics, user-centric design, and industry insights, we are continuously innovating to create a future where digital laundry solutions are the standard, not the exception. Join us in shaping the next generation of laundry services.
                         </p>
                     </div>
                 </div>

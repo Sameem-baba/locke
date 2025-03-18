@@ -22,8 +22,8 @@ const teamMembers = [
     {
         name: "Moin Chalkoo",
         role: "Tech Lead / Software Engineer",
-        image: "/moin.jpg",
-        bio: "Currently pursuing a Master’s in Artificial Intelligence and Machine Learning, I am passionate about leveraging technology to drive meaningful impact. With a strong foundation in product management, I bring a strategic approach to technology leadership, ensuring that innovation is both effective and accessible. My focus lies at the intersection of technology and community, where I strive to integrate cutting-edge advancements with real-world applications that foster positive change."
+        image: "/3.jpg",
+        bio: "Currently pursuing a Master’s in Artificial Intelligence and Machine Learning, I am passionate about leveraging technology to drive meaningful impact.  My focus lies at the intersection of technology and community. With a strong foundation in product management, I bring a strategic approach to technology leadership, ensuring that innovation is both effective and accessible."
     },
     {
         name: "Akins",
